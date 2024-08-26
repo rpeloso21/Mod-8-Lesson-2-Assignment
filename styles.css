@@ -1,0 +1,59 @@
+li > a {
+    color:black;
+}
+
+a:hover {
+    color: rgb(210, 0, 7);
+    text-decoration: none;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+img:hover {
+    border: black solid 2px;
+    opacity: .5;
+}
+
+a {
+    color: white;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+button:hover {
+    background-color: rgb(148, 148, 237);
+    border: black solid;
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+label {
+    display: block;
+}
+
+input, select, textarea{
+    padding: 10px;
+    margin-bottom: 35px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

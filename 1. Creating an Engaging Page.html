@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my site!</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#link1">Link1</a></li>
+            <li><a href="#link2">Link2</a></li>
+            <li><a href="#Link3+">Link3</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2 style="margin-top: 40px;" >Image Gallery</h2>
+        <img src="avengers2.jpg" alt="Avengers movie poster">
+        <img src="Back to the Future.jpg" alt="back to the future movie poster">
+        <img src="elf.jpg" alt="Elf movie poster">
+        <img src="starwars.jpg" alt="Starwars movie poster">
+
+        <br>
+        <button>Watch Now</button>
+
+    </section>
+    <form action="/submit">
+
+        <h3>Tells us about your experience:</h3>
+        <label for="movie-name">Movie Name</label>
+        <input type="text" id="movie-name" placeholder="What movie did you watch?" name = "movie-name" required>
+
+        <label for="rating">What is your rating?</label>
+        <select name="rating" id="rating">
+            <option value="bad">Bad</option>
+            <option value="Mediocre">Mediocre</option>
+            <option value="good">Good</option>
+        </select>
+
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments"></textarea>
+
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+
+
+    
+</body>
+</html>
